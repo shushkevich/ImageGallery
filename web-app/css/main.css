@@ -1,0 +1,190 @@
+/*
+ * Copyright 2012 Sergei Shushkevich
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+body {
+    background: url("../images/bg.png") repeat scroll 0 0 #ebebeb;
+    color: #333;
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+div.menu {
+    background-color: #222;
+    color: #ccc;
+}
+
+div.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.menu li {
+    display: inline-block;
+    line-height: 2em;
+}
+
+div.menu a, div.menu a:visited {
+    color: #ccc;
+    display: block;
+}
+
+div.menu a:hover {
+    background-color: #444;
+}
+
+div.menu li.active a {
+    color: #eee;
+}
+
+div.menu span {
+    display: block;
+}
+
+div.menu span.border {
+    line-height: 0.2em;
+}
+
+div.menu span.text {
+    padding: 0 0.4em;
+}
+
+div.menu li.active a span.border {
+    background-color: #356AA0;
+}
+
+div.content {
+    margin: 0 auto;
+    width: 800px;
+}
+
+div.footer {
+    color: #777;
+    font-size: 0.8em;
+    line-height: 2em;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+div.footer a, div.footer a:visited {
+    color: #777;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #356AA0;
+    font-size: 1.5em;
+}
+
+img {
+    border: none;
+}
+
+a img {
+    vertical-align: middle;
+}
+
+td {
+    vertical-align: top;
+}
+
+.space-before {
+    margin-top: 1em;
+}
+
+.main-content {
+    background: #ebebeb;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.error {
+    color: #cc0000;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.errors ul {
+    color: #cc0000;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.errors li {
+    list-style: none;
+}
+
+.message {
+    color: #006e2e;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.main-content a {
+    text-decoration: underline;
+}
+
+table.image-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.image-list tr:hover {
+    background: #b2c8df;
+}
+
+table.image-list td {
+    padding: 0;
+    vertical-align: middle;
+}
+
+table.image-list img {
+    display: block;
+    padding: 5px 0;
+    vertical-align: middle;
+}
+
+.pagination {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 2px;
+    padding: 0 2px;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+.pagination span.currentStep {
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+ul.form-hints {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
