@@ -1,0 +1,6 @@
+Image Gallery
+-------------------
+
+This is a demo application based on Grails 2.0 web application framework.
+
+The application shows basic usage of features like "dynamic finders", "named queries", "custom ORM mapping", "automatic timestamping", "command objects", "view templates", "custom tag libraries", "named URL mappings", "web flow" and others. It also provides unit and integration tests.
